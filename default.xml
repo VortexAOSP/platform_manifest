@@ -1271,5 +1271,5 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <!-- END open-source projects -->
-  <include name="snippets/hentai.xml" />
+  <include name="snippets/vortex.xml" />
 </manifest>
