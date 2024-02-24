@@ -77,6 +77,7 @@
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- VortexAOSP -->
   <project path="build/make" name="platform_build" groups="pdk" remote="github/VortexAOSP" >
@@ -94,6 +95,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="github/VortexAOSP" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="github/VortexAOSP" />
   <project path="hardware/qcom/sm7250/display" name="platform_hardware_qcom_sm7250_display" groups="pdk" remote="github/hentaiOS" />
   <project path="hardware/qcom/sm7250/media" name="platform_hardware_qcom_sm7250_media" groups="pdk" remote="github/hentaiOS" />
   <project path="hardware/qcom/sm7250/gps" name="platform_hardware_qcom_sm7250_gps" groups="pdk" remote="github/hentaiOS" >
