@@ -78,6 +78,8 @@
   <remove-project name="platform/hardware/qcom/sm7250/media" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="kernel/configs" />
+  
 
   <!-- VortexAOSP -->
   <project path="build/make" name="platform_build" groups="pdk" remote="github/VortexAOSP" >
@@ -89,6 +91,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="kernel/configs" name="kernel_configs" groups="pdk" remote="github/VortexAOSP" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="github/VortexAOSP" />
   <project path="external/json-c" name="platform_external_json-c" groups="pdk" remote="github/hentaiOS" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github/VortexAOSP" />
