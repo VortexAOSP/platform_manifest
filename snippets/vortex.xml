@@ -80,6 +80,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="kernel/configs" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/sepolicy" />
   
 
   <!-- VortexAOSP -->
@@ -92,6 +93,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="github/VortexAOSP" />
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="github/VortexAOSP" />
   <project path="kernel/configs" name="kernel_configs" groups="pdk" remote="github/VortexAOSP" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="github/VortexAOSP" />
