@@ -97,7 +97,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="github/VortexAOSP" />
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" groups="pdk" remote="github/VortexAOSP" />
+  <project path="device/vortex/sepolicy" name="device_vortex_sepolicy" groups="pdk" remote="github/VortexAOSP" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="github/VortexAOSP" />
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="github/VortexAOSP" />
   <project path="kernel/configs" name="kernel_configs" groups="pdk" remote="github/VortexAOSP" />
