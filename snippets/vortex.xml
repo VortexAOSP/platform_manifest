@@ -82,6 +82,8 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
   
 
   <!-- VortexAOSP -->
@@ -107,6 +109,8 @@
   <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="github/VortexAOSP" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="github/VortexAOSP" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel" remote="github/VortexAOSP" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="github/VortexAOSP" />
   <project path="hardware/qcom/sm7250/display" name="platform_hardware_qcom_sm7250_display" groups="pdk" remote="github/hentaiOS" />
   <project path="hardware/qcom/sm7250/media" name="platform_hardware_qcom_sm7250_media" groups="pdk" remote="github/hentaiOS" />
   <project path="hardware/qcom/sm7250/gps" name="platform_hardware_qcom_sm7250_gps" groups="pdk" remote="github/hentaiOS" >
