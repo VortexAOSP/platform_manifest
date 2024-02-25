@@ -108,6 +108,7 @@
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="github/VortexAOSP" />
+  <project path="hardware/vortex/interfaces" name="hardware_vortex_interfaces" groups="pdk" remote="github/VortexAOSP" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="github/VortexAOSP" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel" remote="github/VortexAOSP" />
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="github/VortexAOSP" />
