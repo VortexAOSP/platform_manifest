@@ -105,7 +105,6 @@
   <project path="external/json-c" name="platform_external_json-c" groups="pdk" remote="github/hentaiOS" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github/VortexAOSP" />
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" groups="pdk-fs" remote="github/VortexAOSP" />
-  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" groups="pdk-fs" remote="github/VortexAOSP" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="github/VortexAOSP" />
   <project path="hardware/vortex/interfaces" name="hardware_vortex_interfaces" groups="pdk" remote="github/VortexAOSP" />
