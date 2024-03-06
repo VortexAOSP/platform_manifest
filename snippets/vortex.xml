@@ -120,7 +120,6 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
   <project path="system/core" name="platform_system_core" groups="pdk" remote="github/VortexAOSP" />
-  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" groups="pdk-fs" remote="github/hentaiOS" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" groups="vendor" remote="github/hentaiOS" />
   <project path="vendor/gms" name="platform_vendor_gms" groups="vendor" remote="gitlab/hentaiOS" clone-depth="1" />
   <project path="vendor/vortex" name="platform_vendor_vortex" groups="vendor" remote="github/VortexAOSP" />
