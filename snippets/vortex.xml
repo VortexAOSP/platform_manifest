@@ -31,7 +31,7 @@
   
     <remote name="github/VortexAOSP"
           fetch="https://github.com/VortexAOSP"
-          revision="refs/heads/Unison" />
+          revision="refs/heads/Unison-qpr2" />
 
   <!-- ものを削除 -->
   <remove-project name="device/google/bluejay" />
